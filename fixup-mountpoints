@@ -65,7 +65,7 @@ case "$DEVICE" in
             "$@"
         ;;
 
-    "j5lte")
+    "j5ltexx")
         sed -i \
             -e 's block/platform/7824900.sdhci/by-name/modem mmcblk0p2 ' \
             -e 's block/platform/7824900.sdhci/by-name/persist mmcblk0p22 ' \
